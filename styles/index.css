@@ -1,0 +1,108 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+    font-family: 'Asar';
+    font-size: 18px;
+}
+header {
+    background-image: url("../images/header_bg.jpg");
+    background-repeat: no-repeat;
+    height: 640px;
+    width: 100%;
+}
+.logo {
+    height: 100px;
+    float: left;
+}
+.logo img {
+    height: 30px;
+}
+.logo a {
+    text-transform: capitalize;
+    font-family: 'Architects Daughter';
+    font-size: 80px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #3b963b;
+    text-decoration: none;
+}
+.menu {
+    float: right;
+}
+.menu ul li {
+    display: inline;
+    margin-left: 50px;
+}
+.menu a {
+    text-transform: capitalize;
+    font-family: 'Asar'; 
+    color: #3b963b;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.menu a:hover {
+    background-color: #c3d6c0;
+}
+.video {
+    text-align: center;
+    margin: 40px 0; 
+}
+.videotitle {
+    font-size: 20px;
+}
+main {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+main p {
+    margin: 0;
+}
+aside {
+    width: 50%;
+    text-align: center;
+    float: right;
+    color: #426910;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+aside p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 10px;
+    font-family: 'Anton', sans-serif;
+}
+.row-middle {
+    font-size: 35px;
+}
+.row-big {
+    font-size: 45px;
+}
+.row-small {
+    font-size: 27px;
+}
+.blog {
+    clear: both;
+    text-align: center;
+}
+.blog ul li {
+    display: inline;
+    float: left;
+}
+.blog figure {
+    width: 150px;
+    text-align: center;
+}
+.blog figure img {
+    width: 150px;
+}
+.blog h1 {
+    color: #3b963b;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Architects Daughter';
+    font-size: 80px;
+}
+

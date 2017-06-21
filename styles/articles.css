@@ -1,0 +1,46 @@
+.articlename {
+  color: forestgreen;
+  font-family: 'Architects Daughter';font-size: 80px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+.articletext {
+  color: black;
+  font-family: 'Asar';
+    font-size: 20px;
+  font-weight: normal;
+  margin: auto;
+  width: 100%;
+  }
+.qoute {
+  text-align: right;
+  font-style: italic;
+}
+table, td {
+	border: 2px solid green;
+	border-collapse: collapse;
+	padding: 10px;
+    text-align: center;
+  background-color: lightgoldenrodyellow;
+    }
+th{
+  padding: 15px;
+  background-color: aquamarine;
+}
+#t1{
+  background-color: lightcyan;
+}
+h1 {
+  color: forestgreen;
+  font-family: 'Architects Daughter';font-size: 50px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-right: 10px;
+  text-align: left;
+}
+#icon{
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
