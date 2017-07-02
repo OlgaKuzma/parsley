@@ -1,18 +1,26 @@
+header {
+  background-image: none;
+  height: auto;
+}
+
 .articlename {
   color: forestgreen;
-  font-family: 'Architects Daughter';font-size: 80px;
+  font-family: 'ArchitectsDaughter';
+  font-size: 70px;
   font-weight: bold;
   margin: auto;
   text-align: center;
 }
 .articletext {
-  color: black;
-  font-family: 'Asar';
-    font-size: 20px;
-  font-weight: normal;
-  margin: auto;
+  font-size: 20px;
+}
+.article-images {
+  max-width: 100%;
   width: 100%;
-  }
+}
+.image-container {
+  text-align: center;
+}
 .qoute {
   text-align: right;
   font-style: italic;
@@ -28,12 +36,13 @@ th{
   padding: 15px;
   background-color: aquamarine;
 }
-#t1{
+.t1{
   background-color: lightcyan;
 }
 h1 {
   color: forestgreen;
-  font-family: 'Architects Daughter';font-size: 50px;
+  font-family: 'ArchitectsDaughter';
+  font-size: 50px;
   font-weight: bold;
   margin-top: 30px;
   margin-right: 10px;

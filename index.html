@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Parsley</title>
-    <link rel="icon" href="pictures/15icon.favicon.ico"/>
+    <link rel="icon" href="images/favicon.ico"/>
     <link href='fonts/ArchitectsDaughter.ttf' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Asar' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
@@ -19,7 +19,7 @@
     </div>
     <nav class="menu">
         <ul>
-            <li><a class='active' href='/'>home</a></li>
+            <li><a class='active' id="home" href='#home'>home</a></li>
             <li><a href='#blog'>blog</a></li>
             <li><a href='#contacts'>contacts</a></li>
         </ul>
@@ -27,7 +27,9 @@
 </header>
 <div class="video">
     <p class='videotitle'><i>Are you sure you can't save the planet?! Just listen to this guy!</i></p>
-    <iframe width="760" height="428" src="https://www.youtube.com/embed/aUJD3sGppUo?rel=0" allowfullscreen></iframe>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/aUJD3sGppUo?rel=0" allowfullscreen></iframe>
+    </div>
 </div>
 <main>
     <p>Our body is designed to be healthy; it’s not designed to be sick. If it’s designed to be healthy but many times it’s sick, it means we are doing something wrong. It means we are not following the design. So, there are many things that contribute to good health, but diet is probably the most important; it has the most effect.</p>
@@ -93,18 +95,23 @@
     <p class="form-signature">drop us a line right now</p>
     <form action="https://formspree.io/olya.murari@gmail.com" method="POST" class="contact-form">
         <input type="text" value="secret" hidden name="secret-code">
-         <label>Your name:
+         <label>
+            <span class="label-text">Your name:</span>
             <input type="text" name="client-name" required>
         </label>
-        <label>Your email:
+        <label>
+            <span class="label-text">Your email:</span>
             <input type="email" name="client-email" required>
         </label>
-        <label>Your message:
-            <textarea name="message" rows="4" cols="50"></textarea>
+        <label>
+            <span class="label-text">Your message:</span>
+            <textarea name="message" rows="4"></textarea>
         </label>
         <input type="submit" value="SEND" class="submit-button">
     </form>
 </div>
-<div class="copyright">created by Olga Kuzma in 2017</div>
+<footer>
+  <div class="copyright">created by Olga Kuzma in 2017</div>
+</footer>
 </body>
 </html>
